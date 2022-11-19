@@ -1,0 +1,131 @@
+.zero__word1 {
+
+    font-family: 'Space Mono', monospace;
+    margin-top: 1200px;
+    letter-spacing: 2.14px;
+    font-size: 48px;
+    color: #495567;
+}
+
+.zero__word2 {
+    letter-spacing: 2.14px;
+    font-family: 'Space Mono', monospace;
+    font-size: 48px;
+    color: #495567;
+    margin-top: -20px;
+}
+
+.zero__matn {
+    color: #939CAA;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+
+
+.zero__img1 {
+    width: 400px;
+    height: 400px;
+    margin-left: 700px;
+    margin-top: -380px;
+    border: solid green 1.5px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+
+.zero__button {
+    height: 53px;
+    width: 180px;
+    background-color: #FCB72B;
+    border: none;
+    margin-top: 40px;
+    color: #fff;
+}
+
+.zero__button:hover {
+    background-color: #fff;
+    color: #FCB72B;
+    border: #FCB72B solid 3px;
+}
+
+.zero-button-word3 {
+    font-family: Space Mono;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.zero__img2 {
+    position: static;
+    margin-left: 570px;
+    margin-top: -400px;
+}
+
+.zero__img3 {
+    margin-top: -410px;
+    margin-left: 1200px;
+
+}
+
+
+@media only screen and (max-width: 768px) {
+    .zero__img1 {
+        margin-top: -700px;
+        margin-left: 200px;
+        width: 500px;
+        height: 500px;
+    }
+
+    .zero__word1 {
+        margin-top: 2000px;
+        position: relative;
+        top: 450px;
+        text-align: center;
+        margin-left: 170px;
+        font-size: 70px;
+    }
+
+    .zero__button {
+        position: relative;
+        top: 450px;
+        left: 530px;
+    }
+
+    .zero__matn {
+        position: relative;
+        top: 450px;
+        text-align: center;
+        font-size: 20px;
+        line-height: 35px;
+        margin-left: 160px;
+    }
+
+    .zero__word2 {
+        position: relative;
+        top: 450px;
+        text-align: center;
+        font-size: 70px;
+        margin-left: 200px;
+    }
+
+    .zero__img3 {
+        margin-top: -550px;
+        margin-left: 1140px;
+        width: 130px;
+
+    }
+
+    .zero__img2 {
+        position: static;
+        margin-left: 186px;
+        margin-top: -400px;
+        width: 1100px;
+    }
+
+
+
+}

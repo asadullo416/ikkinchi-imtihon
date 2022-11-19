@@ -1,0 +1,146 @@
+body {
+    overflow-x: hidden;
+}
+
+.earth {
+    width: 1500px;
+    height: 300px;
+    background-color: #495567;
+    margin-top: 500px;
+}
+
+.earth__line1 {
+    margin-top: 142px;
+    margin-left: 300px;
+}
+
+.earth__line2 {
+    position: relative;
+    left: 50px;
+}
+
+.earth__line3 {
+    position: relative;
+    top: -153px;
+    left: 1115px;
+}
+
+
+.earth__text1 {
+    margin-top: -400px;
+    font-size: 20px;
+    color: #fff;
+    letter-spacing: 2.14px;
+}
+
+.earth__text1 h1:nth-child(2) {
+    margin-top: -20px;
+}
+
+.wrap-1 {
+    width: 200px;
+    height: 60px;
+    background-color: #E5ECF4;
+    margin-left: 500px;
+    margin-top: -100px;
+}
+
+.wrap-2 {
+    width: 200px;
+    height: 60px;
+    background-color: #E5ECF4;
+    margin-left: 720px;
+    margin-top: -60px;
+}
+
+.wrap-1__icon1 {
+    font-size: 40px;
+    color: #495567;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.wrap-1__word1 {
+    color: #495567;
+    margin-top: -45px;
+    margin-left: 70px;
+    font-family: Space Mono;
+    font-size: 5px;
+}
+
+.wrap-1__word2 {
+    margin-left: 65px;
+    font-size: 20px;
+    margin-top: 5px;
+    color: #495567;
+    font-family: Space Mono;
+
+}
+
+.wrap-2__icon2 {
+    font-size: 40px;
+    color: #495567;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.wrap-2__word1 {
+    color: #495567;
+    margin-top: -45px;
+    margin-left: 70px;
+    font-family: Space Mono;
+    font-size: 5px;
+}
+
+.wrap-2__word2 {
+    margin-left: 65px;
+    font-size: 20px;
+    margin-top: 5px;
+    color: #495567;
+    font-family: Space Mono;
+
+}
+
+@media only screen and (max-width: 768px) {
+    .earth{
+        margin-top: 600px;
+        margin-left: -300px;
+    }
+
+    .earth__text1 {
+        margin-top: -300px;
+        font-size: 20px;
+        color: #fff;
+        letter-spacing: 2.14px;
+        text-align: center;
+        margin-left: 220px;
+    }
+
+    .wrap-1 {
+        margin-left: 450px;
+        margin-top: 50px;
+    }
+    .wrap-2 {
+        margin-left: 700px;
+        margin-top: -60px;
+    }
+
+    .earth__line1 {
+        margin-top: 142px;
+        margin-left: 150px;
+    }
+
+    
+.earth__line2 {
+    position: relative;
+    left: 50px;
+}
+
+.earth__line3 {
+    position: relative;
+    top: -4px;
+    left: 153px;
+}
+
+
+}

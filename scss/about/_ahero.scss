@@ -1,0 +1,40 @@
+.herotwo__img1 {
+    margin-left: -200px;
+    width: 1500px;
+}
+
+.herotwo__sarlavha1 {
+    margin-top: -110px;
+    font-size: 40px;
+    color: #fff;
+    font-family: 'Space Mono', monospace;
+    margin-left: 100px;
+}
+
+@media only screen and (max-width: 768px) {
+    .herotwo__img1 {
+        width: 1670px;
+    }
+
+    .header__logo{
+        margin-left: 100px;
+    }
+
+    .herotwo__sarlavha1{
+        font-size: 50px;
+        margin-top: -130px;
+        margin-left: 150px;
+    }
+} 
+
+@media only screen and (max-width: 375px) {
+    .herotwo{
+        margin-top: 100px;
+        width: 1500px;
+    }
+  
+    .herotwo__sarlavha1{
+        margin-left: 50px;
+    }
+
+}

@@ -1,0 +1,22 @@
+.header {
+    width: 100%;
+}
+
+.header__logo {
+    color: #495567;
+    font-size: 35px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .header__logo {
+        padding-left: 52px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .header__logo {
+        padding-left: 350px;
+        font-size: 80px;
+    }
+}

@@ -1,0 +1,190 @@
+.oval1 {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin-top: 750px;
+    border-radius: 50%;
+    background-color: orange;
+    display: inline-block;
+
+}
+
+.intro__card1-sarlavha1 {
+    margin-top: 50px;
+    color: #495567;
+    font-family: 'Space Mono', monospace;
+    letter-spacing: 1.07px;
+}
+
+.intro__card1-matn {
+    color: #939CAA;
+    margin-top: 40px;
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.intro__card1-matn p:nth-child(4) {
+    margin-top: 5px;
+}
+
+.intro__card1-matn p:nth-child(3) {
+    margin-top: 5px;
+}
+
+.intro__card1-matn p:nth-child(2) {
+    margin-top: 5px;
+}
+
+.oval2 {
+    width: 100px;
+    height: 100px;
+    margin-left: 380px;
+    margin-top: -310px;
+}
+
+
+
+
+.intro__card2-sarlavha2 {
+    margin-top: 50px;
+    color: #495567;
+    font-family: 'Space Mono', monospace;
+    letter-spacing: 1.07px;
+    margin-left: 380px;
+}
+
+.intro__card2-matn {
+    color: #939CAA;
+    margin-top: 40px;
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+    margin-left: 380px;
+}
+
+.intro__card2-matn p:nth-child(4) {
+    margin-top: 5px;
+}
+
+.intro__card2-matn p:nth-child(3) {
+    margin-top: 5px;
+}
+
+.intro__card2-matn p:nth-child(2) {
+    margin-top: 5px;
+}
+
+
+
+.oval3 {
+    width: 100px;
+    height: 100px;
+    margin-left: 800px;
+    margin-top: -310px;
+}
+
+.intro__card3-sarlavha3 {
+    margin-top: 50px;
+    color: #495567;
+    font-family: 'Space Mono', monospace;
+    letter-spacing: 1.07px;
+    margin-left: 800px;
+}
+
+.intro__card3-matn {
+    color: #939CAA;
+    margin-top: 40px;
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+    margin-left: 800px;
+}
+
+.intro__card3-matn p:nth-child(4) {
+    margin-top: 6px;
+}
+
+.intro__card3-matn p:nth-child(3) {
+    margin-top: 6px;
+}
+
+.intro__card3-matn p:nth-child(2) {
+    margin-top: 6px;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .intro__card2 {
+        margin-top: 400px;
+    }
+
+    .oval1 {
+        width: 180px;
+        height: 180px;
+        margin-left: 180px;
+    }
+
+    .intro__card1-sarlavha1 {
+        font-size: 40px;
+        margin-left: 500px;
+        margin-top: -200px;
+    }
+
+    .intro__card1-matn {
+        font-size: 23px;
+        margin-left: 500px;
+    }
+
+    .intro__card1-matn p:nth-child(4) {
+        margin-top: 10px;
+    }
+
+    .intro__card1-matn p:nth-child(3) {
+        margin-top: 10px;
+    }
+
+    .intro__card1-matn p:nth-child(2) {
+        margin-top: 10px;
+    }
+
+
+    .oval2 {
+        width: 180px;
+        height: 180px;
+        margin-left: 180px;
+        margin-top: -250px;
+    }
+
+    .intro__card2-sarlavha2 {
+        font-size: 40px;
+        margin-left: 500px;
+        margin-top: -200px;
+    }
+
+    .intro__card2-matn {
+        font-size: 25px;
+        margin-left: 500px;
+    }
+
+    .intro__card3 {
+        margin-top: 400px;
+    }
+
+    .oval3 {
+        width: 180px;
+        height: 180px;
+        margin-left: 180px;
+        margin-top: -250px;
+    }
+
+.intro__card3-sarlavha3 {
+    font-size: 40px;
+    margin-left: 500px;
+    margin-top: -200px;
+}
+
+.intro__card3-matn {
+    font-size: 25px;
+    margin-left: 500px;
+}
+
+}

@@ -1,0 +1,116 @@
+.euro__text1 {
+    font-size: 25px;
+    color: #495567;
+    font-family: 'Space Mono', monospace;
+    margin-top: 1200px;
+    letter-spacing: 2.14px;
+    
+}
+
+.euro__text1 h1:nth-child(2) {
+    margin-top: -30px;
+    
+}
+
+.euro__matn {
+    color: #939CAA;
+    
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+    line-height: 25px;
+}
+
+.euro__button {
+    height: 53px;
+    width: 180px;
+    background-color: #FCB72B;
+    border: none;
+    margin-top: 40px;
+    color: #fff;
+    font-family: 'Space Mono', monospace;
+    font-size: 16px;
+}
+
+.euro__button:hover {
+    background-color: #fff;
+    color: #FCB72B;
+    border: #FCB72B solid 3px;
+}
+
+.euro-button-word1 {
+    font-family: Space Mono;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.euro__img1 {
+    margin-left: 550px;
+    border-radius: 50%;
+    border: solid green 1.5px;
+    margin-top: -580px;
+}
+
+.euro__img2 {
+    position: static;
+    margin-left: 1210px;
+    margin-top: -650px;
+}
+
+.euro__img3 {
+    position: relative;
+    top: -250px;
+    left: 950px;
+    margin-top: -900px;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .euro__text1 {
+        margin-top: 2850px;
+        font-size: 35px;
+        text-align: center;
+        margin-left: 100px;
+    }
+
+    .euro__matn {
+        font-size: 15px;
+        line-height:35px;
+        text-align: center;
+        font-size: 25px;
+        margin-left: 50px;
+    }
+
+    .euro__button {
+        margin-top: 40px;
+        font-size: 16px;
+        margin-left: 500px;  
+    }
+
+    .euro__img1 {
+        margin-left: 330px;
+        margin-top: -500px;
+        position: relative;
+        top: -490px;
+        width: 500px;
+    }
+
+    .euro__img2 {
+     
+        left: -200px;
+        margin-top: -650px;
+        position: relative;
+        top: -470px;
+        width: 120px
+    }
+
+    .euro__img3 {
+        position: relative;
+        top: -750px;
+        left: 600px;
+        margin-top: -900px;
+        width: 800px;
+    }
+
+
+}
